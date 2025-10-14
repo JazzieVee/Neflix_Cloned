@@ -1,0 +1,279 @@
+@import "tailwindcss";
+
+.my-text-element {
+  line-height: 1.25;
+}
+
+.my-text-element-too {
+  line-height: 1;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke: 2px white;
+  color: black;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+button:hover {
+ transform: scale(1.02);
+ transition: transform 0.5s ease;
+}
+
+li {
+  margin-bottom: 8px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.hover-button {
+  scale: .9;
+  transition: transform 0.5s ease;
+}
+
+.hover-button:hover {
+transform: scale(1.1);
+transition: transform 0.5s ease;
+opacity: 100;
+}
+
+.hover-facts:hover {
+  opacity: 100;
+  transition: opacity 0.2s ease;
+}
+
+@media (max-width: 1028px) {
+  .px-60 {
+    padding: 20px 68px;
+  }
+
+  #navPrice {
+    font-size: large;
+    padding-top: 5px;
+    font-weight: normal;
+  }
+
+  #navSubTxt {
+    font-size: large;
+    width: 60%;
+    overflow-wrap: anywhere;
+    text-align: center;
+  }
+
+  #navInput {
+    padding-right: 140px;
+  }
+
+  #navBtn {
+    font-size: 18px;
+    padding: 16px 28px;
+  }
+
+  .text-\[55px\] {
+    font-size: 40px;
+  }
+  
+  .w-160 {
+    width: 500px;
+  }
+
+  .py-55 {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+
+  .min-w-\[180px\] {
+    min-width: 140px;
+  }
+
+  #Reasons {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+   
+  .w-\[300px\] {
+    width: 390px;
+    height: 200px;
+  }
+
+  #reasonTitle {
+    font-size:x-large
+  }
+  #reasonPara {
+    font-size: medium;
+  }
+
+  #question {
+    font-size: 26px;
+    padding: 24px 18px;
+  }
+
+  #subscribeTxt {
+    font-size: 16px;
+  }
+
+  #subscribe {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 260px;
+  }
+
+  #subscribeBtn {
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 770px) {
+   .px-60 {
+    padding: 20px 30px;
+  }
+
+  #navPrice {
+    font-size: large;
+    padding-bottom: 20px;
+  }
+
+  .text-\[55px\] {
+    font-size: 34px;
+    width: 50%;
+    padding-bottom: 10px;
+  }
+
+  .py-55 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  #navSubTxt {
+    font-size: 18px;
+    margin-top: 1px;
+  }
+
+  #navInput {
+    padding-right: 60px;
+  }
+
+  #navBtn {
+    font-size: 18px;
+    padding: 16px 28px;
+  }
+
+  .hover-button {
+  opacity: 100%;
+  padding-bottom: 0px;
+}
+
+#trend {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#trendTitle {
+  padding-top: 0px;
+  font-size: 20px;
+}
+
+#trendMovie {
+  gap: 15px;
+}
+
+.min-w-\[180px\] {
+    min-width: 120px;
+    height: 180px;
+  }
+
+  #number {
+    font-size: 4rem;
+    left: -5px;
+    bottom: 10px;
+  }
+ #reasonsBox {
+  margin: 5px;
+ }
+
+ #Reasons {
+  display: block;
+ }
+
+ .w-\[300px\] {
+  width: 100%;
+    max-width: 700px;
+    height: 180px;
+    margin-bottom: 10px;
+  }
+
+   #reasonTitle {
+    font-size:large
+  }
+  #reasonPara {
+    padding-top: 10px;
+    color: white;
+  }
+
+  #reasonIcon {
+    font-size: 60px;
+  }
+
+  #faqBox {
+    padding: 0px;
+    margin: 0;
+  }
+
+  #faqTitle {
+    font-size: 22px;
+  }
+ 
+  #question {
+    font-size: 20px;
+    padding: 18px 18px;
+  }
+
+
+  #subscribeTxt {
+    padding-top: 12px;
+  }
+
+  #subscribe {
+  padding-right: 350px;
+  border-color: white;
+  }
+
+  #subscribeBox {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #footerLinks {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: rgb(184, 181, 181);
+  }
+
+  ul {
+    padding-right: 180px;
+    font-size: 16px;
+  }
+
+  #lastLink {
+    padding-right:0;
+  }
+
+  #footerRow {
+        padding: 0;
+        margin-bottom: 160px;
+  }
+
+  #contactNum {
+   color: rgb(184, 181, 181)
+  }
+  
+}
+
+@media (max-width: 430px) {
+  .px-60 {
+    padding: 0;
+    }
+}
