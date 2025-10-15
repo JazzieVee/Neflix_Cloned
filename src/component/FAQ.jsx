@@ -10,8 +10,8 @@ function FAQ() {
     const questionAns = [
         {   
             question: "What is Netflix?",
-            answer: ["Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.", <br/>,
-            <br/>, "You can watch as much as you want, whenever you want – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!"],
+            answer: ["Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.", <br key="space2" />,
+            <br key="space1" />, "You can watch as much as you want, whenever you want – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!"],
         },
         {   
             question: "How much does Netflix cost?",
@@ -19,8 +19,8 @@ function FAQ() {
         },
          {
             question: "Where can I watch?",
-            answer: ["Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.", <br/>,
-            <br/>, "You can also download your favorite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere."]
+            answer: ["Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.", <br key="space4" />,
+            <br key="space5"/>, "You can also download your favorite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere."]
         },
          {
             question: "How do I cancel?",
@@ -32,8 +32,8 @@ function FAQ() {
         },
         {
             question: "Is Netflix good for kids?",
-            answer: ["The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.", <br/>, 
-                <br/>, "Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see."]
+            answer: ["The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.", <br key="space3" />, 
+                <br key="space4" />, "Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see."]
         },
     ];
 
@@ -42,10 +42,10 @@ function FAQ() {
         <div id='faqTitle' className='font-bold text-[24px] my-5'>Frequently Asked Questions</div>
          {questionAns.map((item, index) => {
             return(
-             <div key={index} className='hover-facts opacity-70'>{item.id}
+             <div key={index} className='hover-facts opacity-70'>
           <div id='question' onClick={() => toggleAnswer(index)} className='text-xl cursor-pointer bg-gray-700 p-3 flex justify-between items-center px-6'>
             <div id='questionFont' >{item.question}</div>
-          <div className='text-4xl'>
+          <div id='plus' className='text-4xl'>
             {activeIndex === index? <BsPlusLg style={{transform: 'rotate(45deg)',}}/> : <BsPlusLg /> }
           </div>
           </div>

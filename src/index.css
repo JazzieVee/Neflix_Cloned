@@ -274,6 +274,167 @@ opacity: 100;
 
 @media (max-width: 430px) {
   .px-60 {
-    padding: 0;
-    }
+    padding: 20px;
+  }
+
+  #navTitle {
+    font-size: 20px;
+  }
+
+ #language {
+  padding-right: 0;
+  padding-left: 0; 
+ }
+
+ #signIn {
+  padding: 1px 16px;
+ }
+
+ .py-55 {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+ .text-\[55px\] {
+  width: 100%;
+  padding-bottom: 1px;
+ }
+
+ #navPrice {
+  padding: 0;
+  padding-bottom: 16px;
+  font-size: medium;
+ }
+
+ #navSubTxt {
+  font-size: 16px;
+  width: 90%;
+  margin-top: 0px;
+ }
+ #navSubscribe {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 14px;
+ }
+  #navInput {
+    padding: 4px;
+    width: 340px;
+    max-width: 400px;
+  }
+ #navBtn {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: medium;
+ }
+
+ .hover-button {
+  display: block;
+  justify-items: left;
+  opacity: 100%;
+  padding-bottom: 2px;
+  width: 425px;
+}
+
+.w-25 {
+  width: 65px;
+  position: relative;
+  top: 25px;
+}
+
+#learnMore { 
+  margin-bottom: 20px;
+  margin-right: 220px;
+  padding: 4px 2px;
+}
+
+#popcornTxt {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+#popcornBox {
+   padding-top: 30px;
+   text-align: left;
+   font-size: 16px;
+   display: block;
+   height: 160px;
+}
+
+.min-w-\[180px\] {
+    min-width: 120px;
+    height: 160px;
+  }
+
+  #trendMovie {
+    gap: 10px;
+    padding-left: 4px;
+  }
+
+  .w-\[300px\] {
+    width: 100%;
+    max-width: 430px;
+    height: 180px;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+
+  #reasonTop {
+    font-size: 20px;
+  }
+  
+  #reasonTitle {
+    margin-bottom: 4px;
+  }
+
+  #reasonPara {
+    font-size: medium;
+    padding-top: 6px;
+  }
+
+  #reasonIcon {
+    font-size: 40px;
+  }
+  
+#faqTitle {
+  font-size: 20px;
+}
+#question {
+  font-size: 18px;
+  padding: 18px 18px;}
+
+  #plus {
+    font-size: 22px;
+  }
+
+  #subscribeTxt {
+    text-align: left;
+    margin-right: 20px;
+  }
+
+  #subscribe {
+    padding-right: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-color: white;
+    width: 100%;
+    max-width: 420px;
+    margin-bottom: 10px;
+  }
+
+  #subs {
+    display:block;
+  }
+
+  #subscribeBtn {
+    padding: 10px 24px;
+    font-size: 18px;
+  }
+
+  #captcha {
+    font-size: 14px;
+    display: block;
+  }
+
 }

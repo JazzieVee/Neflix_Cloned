@@ -33,7 +33,7 @@ function Reasons() {
     ]
   return (
     <div id="reasonsBox" className='mx-10 py-5'>
-        <div className='font-bold text-[24px] mb-5'>
+        <div id="reasonTop" className='font-bold text-[24px] mb-5'>
             More Reasons to Join
         </div>
 

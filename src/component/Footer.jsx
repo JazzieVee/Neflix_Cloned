@@ -48,7 +48,7 @@ function Footer() {
                             <option className="text-black" value="English">English</option>
                             <option className="text-black" value="Spanish">Spanish</option>
         </select>
-        <div className='text-xs my-10 flex gap-1'>
+        <div id="captcha" className='text-xs my-10 flex gap-1'>
             This page is protected by Google reCAPTCHA to ensure you're not a bot. <br/>  <span className='text-blue-600 underline cursor-pointer'>Learn more.</span>
         </div>
     </div>

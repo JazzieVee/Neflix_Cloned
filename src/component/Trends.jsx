@@ -57,13 +57,13 @@ import trend10 from '../assets/trend10.webp';
     <>
     <div className='bg-black text-white'>
       <div className='flex items-center justify-center hover-button py-8 opacity-60'>
-        <img src={popcornImg} alt="" className='w-25 rounded-4xl' />
-        <div className='relative z-0 flex justify-between w-[90%] bg-gradient-to-r from-blue-950 to-purple-950 rounded-2xl'>
-            <div className='flex flex-col text-white justify-center ml-8'>
+        <img src={popcornImg} alt="" className='w-25 rounded-4xl relative' />
+        <div id="popcornBox" className='z-0 flex justify-between w-[90%] bg-gradient-to-r from-blue-950 to-purple-950 rounded-2xl'>
+            <div id='popcornTxt' className='flex flex-col text-white justify-center ml-8'>
             <p className='text-xl font-bold my-text-element-too'>The Netflix you love for just $7.99.</p>
             <p className='text-md'>Get our most affordable, ad-supported plan.</p>
             </div>
-            <div className='flex justify-center bg-gray-600 text-white m-5 mr-8 px-4 py-1 rounded'>
+            <div id='learnMore' className='flex justify-center bg-gray-600 text-white m-5 mr-8 px-4 py-1 rounded'>
                 <button className='font-bold text-lg'>Learn More</button>
             </div>
         </div>
