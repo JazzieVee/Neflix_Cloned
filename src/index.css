@@ -94,7 +94,7 @@ opacity: 100;
     flex-wrap: wrap;
   }
    
-  .w-\[300px\] {
+  .w-\[320px\] {
     width: 390px;
     height: 200px;
   }
@@ -190,15 +190,17 @@ opacity: 100;
     left: -5px;
     bottom: 10px;
   }
+  
  #reasonsBox {
   margin: 5px;
+  width: 100%;
  }
 
  #Reasons {
   display: block;
  }
 
- .w-\[300px\] {
+ .w-\[320px\] {
   width: 100%;
     max-width: 700px;
     height: 180px;
@@ -208,6 +210,7 @@ opacity: 100;
    #reasonTitle {
     font-size:large
   }
+
   #reasonPara {
     padding-top: 10px;
     color: white;
@@ -230,7 +233,6 @@ opacity: 100;
     font-size: 20px;
     padding: 18px 18px;
   }
-
 
   #subscribeTxt {
     padding-top: 12px;
@@ -273,62 +275,66 @@ opacity: 100;
 }
 
 @media (max-width: 430px) {
+
   .px-60 {
     padding: 20px;
-  }
+}
 
-  #navTitle {
+#navTitle {
     font-size: 20px;
-  }
+}
 
- #language {
+#language {
   padding-right: 0;
   padding-left: 0; 
- }
+}
 
- #signIn {
+#signIn {
   padding: 1px 16px;
- }
+}
 
- .py-55 {
+.py-55 {
     padding-top: 100px;
     padding-bottom: 80px;
-  }
+}
 
- .text-\[55px\] {
+.text-\[55px\] {
   width: 100%;
   padding-bottom: 1px;
- }
+}
 
- #navPrice {
+#navPrice {
   padding: 0;
   padding-bottom: 16px;
   font-size: medium;
- }
+}
 
- #navSubTxt {
+#navSubTxt {
   font-size: 16px;
   width: 90%;
   margin-top: 0px;
- }
- #navSubscribe {
+}
+
+#navSubscribe {
   flex-direction: column;
   align-items: center;
   gap: 10px;
   margin: 14px;
- }
-  #navInput {
+}
+
+#navInput {
     padding: 4px;
     width: 340px;
     max-width: 400px;
-  }
- #navBtn {
+}
+
+#navBtn {
   padding: 12px 24px;
   font-size: 18px;
   font-weight: medium;
- }
+}
 
- .hover-button {
+.hover-button {
   display: block;
   justify-items: left;
   opacity: 100%;
@@ -372,7 +378,7 @@ opacity: 100;
     padding-left: 4px;
   }
 
-  .w-\[300px\] {
+  .w-\[320px\] {
     width: 100%;
     max-width: 430px;
     height: 180px;
@@ -397,10 +403,10 @@ opacity: 100;
     font-size: 40px;
   }
   
-#faqTitle {
+  #faqTitle {
   font-size: 20px;
-}
-#question {
+  }
+  #question {
   font-size: 18px;
   padding: 18px 18px;}
 
