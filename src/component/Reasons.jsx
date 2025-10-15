@@ -32,7 +32,7 @@ function Reasons() {
         }
     ]
   return (
-    <div id="reasonsBox" className='mx-10 py-5'>
+    <div id="reasonsBox" className='mx-8 py-5'>
         <div id="reasonTop" className='font-bold text-[24px] mb-5'>
             More Reasons to Join
         </div>
@@ -41,7 +41,7 @@ function Reasons() {
             
             {reasons.map((reason, index) => {
                 return(
-                    <div key={index} className='w-[300px] h-[260px] py-8 px-4 
+                    <div key={index} className='w-[320px] h-[260px] py-8 px-4 
         bg-gradient-to-br from-blue-950 to-purple-950 
         opacity-80 rounded-2xl relative'>
                 <div id="reasonTitle" className='font-bold text-lg my-text-element-too'>
