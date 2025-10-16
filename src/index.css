@@ -439,8 +439,8 @@ opacity: 100;
   }
 
   #captcha {
-    font-size: 14px;
     display: block;
+    font-size: 14px;
   }
 
 }
